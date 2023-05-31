@@ -1,0 +1,10 @@
+@import "./quasar-variables.sass";
+
+@font-face {
+  font-family: "IRANSans-Medium";
+  src: url("../assets/fonts/IRANSans-Medium/IRANSans-Medium.ttf")
+    format("truetype");
+}
+* {
+  font-family: "IRANSans-Medium";
+}
