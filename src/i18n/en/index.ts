@@ -1,4 +1,4 @@
-const en = {
+const enGB = {
   lorem: "Lorem",
 };
-export default en;
+export default enGB;

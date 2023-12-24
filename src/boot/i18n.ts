@@ -1,13 +1,13 @@
 import { createI18n } from "vue-i18n";
-import fa from "@/i18n/fa/index";
-import en from "@/i18n/en/index";
+import faIR from '@/i18n/fa';
+import enGB from '@/i18n/en'
+// import enGB from 'src/locales/en-GB';
 
 const i18n = createI18n({
+  locale: 'en-GB',
   legacy: false,
-  locale: "fa",
-  globalInjection: true,
-  fallbackLocale: "en",
-  messages: { fa, en },
+  fallbackLocale: 'fa-IR',
+  messages: { faIR, enGB },
 });
 
 export default i18n;

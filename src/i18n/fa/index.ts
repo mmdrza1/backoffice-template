@@ -1,5 +1,5 @@
-const fa = {
+const faIR = {
   lorem: "لورم",
 };
 
-export default fa;
+export default faIR;
